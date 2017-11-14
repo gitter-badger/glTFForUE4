@@ -6,7 +6,8 @@ public class glTFForUE4Ed : ModuleRules
 {
 	public glTFForUE4Ed(TargetInfo Target)
 	{
-		
+		PCHUsage = ModuleRules.PCHUsageMode.UseSharedPCHs;
+
 		PublicIncludePaths.AddRange(
 			new string[] {
 				"glTFForUE4Ed/Public"

@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class glTFForUE4Ed : ModuleRules
 {
-	public glTFForUE4Ed(TargetInfo Target)
+	public glTFForUE4Ed(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseSharedPCHs;
 
